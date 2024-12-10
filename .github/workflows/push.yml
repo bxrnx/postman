@@ -6,7 +6,7 @@ on:
       - main # Activa el pipeline cuando se realiza un push en la rama main
   pull_request:
     branches:
-      - main # Activa el pipeline cuando se realiza un pull request hacia la rama main
+      - master # Activa el pipeline cuando se realiza un pull request hacia la rama master
 
 jobs:
   build:
