@@ -3,7 +3,7 @@ name: CI Pipeline
 on:
   push:
     branches:
-      - main # Activa el pipeline cuando se realiza un push en la rama main
+      - master # Activa el pipeline cuando se realiza un push en la rama master
   pull_request:
     branches:
       - master # Activa el pipeline cuando se realiza un pull request hacia la rama master
