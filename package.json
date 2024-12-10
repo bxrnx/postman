@@ -1,10 +1,11 @@
 {
   "name": "postman-tests",
   "version": "1.0.0",
-  "dependencies": {
-    "newman": "^5.3.0"
-  },
   "scripts": {
-    "test": "newman run ./"Rick and Morty API.postman_collection.json""
+    "test": "newman run \"Rick and Morty API.postman_collection.json\""
+  },
+  "dependencies": {
+    "newman": "^5.0.0"
   }
 }
+
